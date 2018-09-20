@@ -17,7 +17,6 @@ body {
 
 .header {
     padding: 20px;
-   
     margin-bottom: 10px;
 }
 
@@ -26,29 +25,25 @@ body {
     margin-bottom: 10px;
 }
 
-.leftcolumn {
-    float: left;
-    width: 50%;
-}
+.container {
+    display: flex;
+    justify-content: space-between;
 
-.rightcolumn {
-    float: left;
-    width: 50%;
 }
 
 .section {
     padding: 20px;
+    margin-bottom: 10px;
 }
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+.aside {
+    padding: 20px;
 }
+
 .footer {
+    width: 100%;
     margin-top: 10px;
     padding: 10px;
-
 }
 
 .article {
